@@ -12,6 +12,10 @@ import { ProfessorComponent } from './usuarios/professor/professor.component';
 import { SecretariaComponent } from './usuarios/secretaria/secretaria.component';
 import { CoordenadorComponent } from './usuarios/coordenador/coordenador.component';
 import { PerfilComponent } from './perfil/perfil.component';
+import { CalendarioComponent } from './calendario/calendario.component';
+import { DiarioAlunoComponent } from './usuarios/aluno/diario-aluno/diario-aluno.component';
+import { MaterialAlunoComponent } from './usuarios/aluno/material-aluno/material-aluno.component';
+import { DocumentoAlunoComponent } from './usuarios/aluno/documento-aluno/documento-aluno.component';
 
 
 @NgModule({
@@ -25,6 +29,10 @@ import { PerfilComponent } from './perfil/perfil.component';
     SecretariaComponent,
     CoordenadorComponent,
     PerfilComponent,
+    CalendarioComponent,
+    DiarioAlunoComponent,
+    MaterialAlunoComponent,
+    DocumentoAlunoComponent,
   ],
   imports: [
     BrowserModule,

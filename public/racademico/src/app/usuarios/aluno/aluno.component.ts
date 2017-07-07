@@ -17,7 +17,7 @@ export class AlunoComponent implements OnInit{
     ngOnInit(){
         this.router.params.subscribe((params: Params) => {
             this.matricula = params['matricula']
-            console.log(this.matricula)
+            
         })
      }
 }

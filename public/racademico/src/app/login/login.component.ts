@@ -15,7 +15,7 @@ export class LoginComponent implements OnInit{
     }
     onSubmit(){
         if(this.model.acesso =='Aluno'){
-            this.router.navigate(['/aluno',this.model.matricula])
+            this.router.navigate(['/aluno'],this.model.matricula)
         }
         if(this.model.acesso == "Professor"){
             this.router.navigate(['/professor',this.model.matricula])
