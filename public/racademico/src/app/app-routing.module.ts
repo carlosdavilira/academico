@@ -27,7 +27,11 @@ const routes : Routes = [
         {path:'material',component:MaterialAlunoComponent},
         {path:'documento',component:DocumentoAlunoComponent}
         ]},
-    {path: 'professor/:matricula',component:ProfessorComponent},
+    {path: 'professor',component:ProfessorComponent,children:[
+        {path:'',redirectTo:'perfil',pathMatch:'full'},
+        {path:'perfil',component:PerfilComponent},
+        {path:'calendario',component:CalendarioComponent}
+    ]},
     {path: 'secretaria/:matricula',component:SecretariaComponent},
     {path: 'coordenador/:matricula',component:CoordenadorComponent},
     {path: 'perfil',component:PerfilComponent},

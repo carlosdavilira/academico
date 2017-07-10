@@ -18,13 +18,13 @@ export class LoginComponent implements OnInit{
             this.router.navigate(['/aluno'],this.model.matricula)
         }
         if(this.model.acesso == "Professor"){
-            this.router.navigate(['/professor',this.model.matricula])
+            this.router.navigate(['/professor'],this.model.matricula)
         }
         if(this.model.acesso == "Secretária"){
-            this.router.navigate(['/secretaria',this.model.matricula])
+            this.router.navigate(['/secretaria'],this.model.matricula)
         }
         if(this.model.acesso == "Coordenador"){
-            this.router.navigate(['/coordenador',this.model.matricula])
+            this.router.navigate(['/coordenador'],this.model.matricula)
         }   
     }
     get diagnostic() {
