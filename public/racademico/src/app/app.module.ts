@@ -16,6 +16,12 @@ import { CalendarioComponent } from './calendario/calendario.component';
 import { DiarioAlunoComponent } from './usuarios/aluno/diario-aluno/diario-aluno.component';
 import { MaterialAlunoComponent } from './usuarios/aluno/material-aluno/material-aluno.component';
 import { DocumentoAlunoComponent } from './usuarios/aluno/documento-aluno/documento-aluno.component';
+import { DiarioProfessorComponent } from './usuarios/professor/diario-professor/diario-professor.component';
+import { MaterialProfessorComponent } from './usuarios/professor/material-professor/material-professor.component';
+import { AlocarComponent } from './usuarios/coordenador/alocar/alocar.component';
+import { EmitirComponent } from './usuarios/secretaria/emitir/emitir.component';
+import { TrancarComponent } from './usuarios/secretaria/trancar/trancar.component';
+import { HorarioComponent } from './horario/horario.component';
 
 
 @NgModule({
@@ -33,6 +39,12 @@ import { DocumentoAlunoComponent } from './usuarios/aluno/documento-aluno/docume
     DiarioAlunoComponent,
     MaterialAlunoComponent,
     DocumentoAlunoComponent,
+    DiarioProfessorComponent,
+    MaterialProfessorComponent,
+    AlocarComponent,
+    EmitirComponent,
+    TrancarComponent,
+    HorarioComponent,
   ],
   imports: [
     BrowserModule,
